@@ -1,0 +1,326 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+.site-header {
+	background-image: linear-gradient(to top left, #33B4A4, #C1E2DE);
+	
+}
+
+nav {
+	display:  flex;
+	justify-content: space-between;
+	flex-direction:  column;
+	align-items: center;
+}
+
+nav a {
+	flex: 1;
+	text-align: center;
+	margin: .25em;
+	padding: .25em;
+	font-family: 'Zen Tokyo Zoo', cursive;
+	color:  #FFFFFF;
+	
+	text-decoration: none;
+	flex-direction: column;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a:hover {
+	color:  black;
+	text-decoration: underline;
+	filter: drop-shadow(0 0 10px black);
+}
+
+i {
+	flex: 1;
+	text-align: center;
+	margin: .25em;
+	padding: .25em;
+	filter: drop-shadow(0 0 10px black);
+}
+
+
+.top-containers {
+	display:  flex;
+	justify-content:  space-between;
+	flex-direction:  column-reverse;
+	align-items:  center;
+	text-align: center;
+	background-color: rgba(92, 89, 95, 0.2);
+	padding:  20px 20px;
+  	}
+
+  .top-p{
+  	font-family: 'Big Shoulders Display', cursive;
+  	font-size: 30px;
+  }
+	
+
+.mandala {
+	max-width: 80%;
+	height:  auto;
+	border-radius: 12px ;
+	opacity: 0.8;
+	}
+
+.top-containers p {
+	padding-top: 10px;
+}
+	
+	
+.middle-containers {
+	display:  flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(250, 0, 255, 0.11);
+	
+}
+
+.middle-title-1 {
+	padding-top: 5%;
+	padding-left: 5%;
+	text-align: left;
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 30px;
+}
+
+.middle-title-2 {
+	font-family: 'Big Shoulders Display', cursive;
+	padding-top: 5%;
+	padding-left: 5%;
+	text-align: left;
+	font-size: 30px;
+	
+}
+
+.middle-containers p {
+	padding: 20px 20px;
+	text-align: left;
+}
+
+
+.bottom-containers {
+	display:  flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(92, 89, 95, 0.2);
+	
+}
+
+.bottom-title {
+	text-align: center;
+	font-family: 'acme', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-decoration: underline;
+	font-size: 20px;
+	
+}
+
+.container-row {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height:  50%;
+	padding-bottom: 5%;
+
+
+}
+
+	
+.container-row img {
+	max-width: 80%;
+	height: auto%;
+	margin: .50em;
+	padding: .50em;
+
+	}
+
+.container-titles {
+	font-family: 'acme', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+.row-paragraphs {
+	padding: 15px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+.button {
+	cursor:  pointer;
+	padding: 0.5rem 0.5rem;
+	background-color:  darkgray;
+	border-radius: 6px;
+	margin: .25rem;
+	
+	text-align: center;
+	align-items: center;
+}
+
+.buttons-class {
+	align-items: center;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	nav  { display: flex;
+		flex-direction: row; 
+	 }
+
+	.nav-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		padding-left: 30%;
+		padding-right: 10%;
+	}
+
+	.top-containers { flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	}
+
+	.top-paragraph {
+		width: 40%
+	}
+
+	.top-p {
+		width: 50%;
+		padding-left: 45%;
+		line-height: 1.5;
+	}
+
+	.top-right {
+		width: 60%;
+	}
+
+	.middle-containers { flex-direction: row; 
+	align-items: baseline;
+	}
+
+
+	.main-paragraph {
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.testimonials {
+		width: 40%;
+		padding-right: 10%;
+	}
+
+	.middle-title-1 { justify-content: flex-start;
+		align-items: flex-start ;
+	}
+
+	.container-row { flex-direction: row; 
+	height: auto; 
+	width: 100%;
+	align-items: baseline;
+	}
+
+	.container-row img {
+		height: 160px;
+		width: auto;
+	}
+
+	#our-team {
+	width:  25%; }
+
+	#our-services {
+	width:  25%; 
+	}
+
+	#references {
+	width:  25%; 
+	}
+
+	#press {
+	width:  25%; 
+	}
+
+	.buttons-class {
+	align-items: flex-start;
+	text-align: left;
+	padding-right: 30%; 
+	}
+
+
+	.button {
+	align-items: flex-start;
+	text-align: left;
+	padding-right: 30%; 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+	
+
+
+
